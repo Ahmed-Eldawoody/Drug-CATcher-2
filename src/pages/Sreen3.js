@@ -57,7 +57,7 @@ export default function Sreen3() {
           <div className={classes.buttonDiv}>
             <Button variant="contained">
               <Link to="/" className={classes.Link}>
-                Back to homepage
+                Back to home page
               </Link>
             </Button>
           </div>

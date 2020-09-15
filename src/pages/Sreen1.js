@@ -54,9 +54,19 @@ export default function Sreen1() {
           </AppBar>
         </Grid>
         <Grid item xs={12}>
+          <h3
+            style={{
+              marginTop: "20px",
+              textAlign: "center"
+            }}
+          >
+            You could request an appointment with our team.
+          </h3>
+        </Grid>
+        <Grid item xs={12}>
           <div className={classes.video}>
             <ReactPlayer
-              width="100%"
+              // width="100%"
               // height="250px"
               style={{ margin: "0 auto" }}
               controls
@@ -64,7 +74,7 @@ export default function Sreen1() {
               // As of Chrome 66 videos must be muted in order to play automatically.
               muted
               playing
-              url="https://www.youtube.com/watch?v=VagES3pxttQ&list=RDVagES3pxttQ&start_radio=1"
+              url="https://www.youtube.com/watch?v=sbTVZMJ9Z2I"
             />
           </div>
         </Grid>
@@ -72,7 +82,7 @@ export default function Sreen1() {
           <div className={classes.buttonDiv}>
             <Button variant="contained">
               <Link to="/screen2" className={classes.Link}>
-                You could request an appointment with our team
+                Requist appointment
               </Link>
             </Button>
           </div>
