@@ -82,7 +82,7 @@ export default function Sreen1() {
           <div className={classes.buttonDiv}>
             <Button variant="contained">
               <Link to="/screen2" className={classes.Link}>
-                Requist appointment
+                Request an appointment
               </Link>
             </Button>
           </div>
