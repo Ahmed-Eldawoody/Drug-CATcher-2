@@ -39,7 +39,7 @@ export default function Sreen3() {
               <h3 className={classes.title}>
                 Drug <span style={{ color: "green" }}>CAT</span>cher
               </h3>
-              <img src="/favicon-32x32.png" alt="" />
+              <img src="/favicon-32x32.jpg" alt="" />
             </Toolbar>
           </AppBar>
         </Grid>
