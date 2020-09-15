@@ -66,9 +66,9 @@ export default function Sreen1() {
         <Grid item xs={12}>
           <div className={classes.video}>
             <ReactPlayer
-              // width="100%"
+              width="auto"
               // height="250px"
-              style={{ margin: "0 auto" }}
+              style={{ margin: "0 auto", maxWidth: "500px" }}
               controls
               volume={0.5}
               // As of Chrome 66 videos must be muted in order to play automatically.
